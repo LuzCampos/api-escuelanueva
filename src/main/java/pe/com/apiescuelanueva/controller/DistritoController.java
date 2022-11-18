@@ -33,6 +33,8 @@ public class DistritoController {
         return distritoservice.findAll();
     }
     
+    //findAll Custom método
+    
     @GetMapping("/custom")
     public List<DistritoEntity> findAllCustom(){
         return distritoservice.findAllCustom();
